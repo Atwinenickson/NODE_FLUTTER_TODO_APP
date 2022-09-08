@@ -17,8 +17,8 @@ Database Connection
 --------------------------------------------*/
 const conn = mysql.createConnection({
   host: 'localhost',
-  user: 'michael', /* MySQL User */
-  password: 'michael', /* MySQL Password */
+  user: 'root', /* MySQL User */
+  password: 'root', /* MySQL Password */
   database: 'todo', /* MySQL Database */
   
 });
